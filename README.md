@@ -2,8 +2,6 @@
 
 Give every sender in Apple Mail an avatar — real company logos and Gravatar photos where they exist, a clean coloured monogram everywhere else.
 
-<img src="docs/sample-logo.png" width="72" align="top"> <img src="docs/sample-monogram.png" width="72" align="top">
-
 ## Why Apple Mail shows almost no avatars
 
 Mail only has two sources for a sender image:
