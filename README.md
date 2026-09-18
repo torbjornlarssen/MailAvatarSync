@@ -16,7 +16,7 @@ So in practice you get a grid of grey silhouettes. This script fills the gap by 
 For each incoming sender, in order, stopping at the first hit:
 
 1. **Gravatar** — a real photo the person chose for that address.
-2. **Company logo**, walking from the full sending host up to the registrable domain. Bulk mail arrives from subdomains like `hei.email.kron.no` that have no website at all, so it tries `hei.email.kron.no`, then `email.kron.no`, then `kron.no`. At each level:
+2. **Company logo**, walking from the full sending host up to the registrable domain. Bulk mail arrives from subdomains like `news.email.example.com` that have no website at all, so it tries `news.email.example.com`, then `email.example.com`, then `example.com`. At each level:
    - `/apple-touch-icon.png` and `/apple-touch-icon-precomposed.png` from the sender's own server — highest quality, typically 180px, and finds logos the icon aggregators have never indexed
    - DuckDuckGo's icon service
    - Google's favicon service

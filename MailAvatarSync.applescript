@@ -32,8 +32,9 @@ property verboseLogging : true
 -- Domains where a company logo makes no sense (senders are individuals).
 property freemailDomains : {"gmail.com", "googlemail.com", "outlook.com", "hotmail.com", "live.com", "icloud.com", "me.com", "mac.com", "yahoo.com", "yandex.ru", "mail.ru", "bk.ru", "inbox.ru", "proton.me", "protonmail.com", "fastmail.com", "gmx.net", "web.de", "online.no", "hotmail.no"}
 
--- Bulk mail arrives from subdomains like hei.email.kron.no, which usually have no
--- website and no favicon of their own. We walk up to email.kron.no, then kron.no.
+-- Bulk mail arrives from subdomains like news.email.example.com, which usually have
+-- no website and no favicon of their own. We walk up to email.example.com, then
+-- example.com.
 property multiPartSuffixes : {"co.uk", "org.uk", "ac.uk", "gov.uk", "me.uk", "net.uk", "com.au", "net.au", "org.au", "edu.au", "gov.au", "co.nz", "net.nz", "org.nz", "co.jp", "or.jp", "ne.jp", "com.br", "com.mx", "com.cn", "com.tr", "co.za", "co.in", "com.sg", "com.hk", "co.kr", "com.pl", "com.ar", "com.tw"}
 
 -- Ask the sender's own web server for /apple-touch-icon.png. This gives the best
